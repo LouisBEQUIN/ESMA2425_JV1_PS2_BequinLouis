@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"Scr_mouse_left",
+  "isCompatibility":false,
+  "isDnD":true,
+  "name":"Scr_mouse_left",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

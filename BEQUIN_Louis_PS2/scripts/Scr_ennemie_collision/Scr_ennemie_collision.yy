@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"Scr_ennemie_collision",
+  "isCompatibility":false,
+  "isDnD":true,
+  "name":"Scr_ennemie_collision",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

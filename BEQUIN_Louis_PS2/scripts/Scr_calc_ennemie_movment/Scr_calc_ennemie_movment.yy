@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"Scr_calc_ennemie_movment",
+  "isCompatibility":false,
+  "isDnD":true,
+  "name":"Scr_calc_ennemie_movment",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
