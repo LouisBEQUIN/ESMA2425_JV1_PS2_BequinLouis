@@ -15,8 +15,8 @@ function Scr_calc_ennemie_movment() {	/// @DnDAction : YoYo Games.Common.Varia
 	/// @DnDVersion : 1
 	/// @DnDHash : 7627FE60
 	/// @DnDParent : 54641AAE
-	/// @DnDArgument : "code" "if (one_ground_ennemie) && (afraidofheights) && (!place_meeting(x+hsp,y+1,O_wall))$(13_10){$(13_10)	hsp = -hsp;$(13_10)}$(13_10)"
-	if (one_ground_ennemie) && (afraidofheights) && (!place_meeting(x+hsp,y+1,O_wall))
+	/// @DnDArgument : "code" "if (on_ground_ennemie) && (afraidofheights) && (!place_meeting(x+hsp,y+1,O_wall))$(13_10){$(13_10)	hsp = -hsp;$(13_10)}$(13_10)"
+	if (on_ground_ennemie) && (afraidofheights) && (!place_meeting(x+hsp,y+1,O_wall))
 	{
 		hsp = -hsp;
 	}}

@@ -2,13 +2,13 @@
 /// @DnDVersion : 1
 /// @DnDHash : 456770B5
 /// @DnDArgument : "var" "done"
-if(done == 0){	/// @DnDAction : YoYo Games.Common.Execute_Script
-	/// @DnDVersion : 1.1
-	/// @DnDHash : 687A927A
+if(done == 0){	/// @DnDAction : YoYo Games.Common.Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 303D4A76
 	/// @DnDParent : 456770B5
-	/// @DnDArgument : "script" "Scr_calc_ennemie_movment"
-	/// @DnDSaveInfo : "script" "Scr_calc_ennemie_movment"
-	script_execute(Scr_calc_ennemie_movment);
+	/// @DnDArgument : "expr" "vsp + grv"
+	/// @DnDArgument : "var" "vsp"
+	vsp = vsp + grv;
 
 	/// @DnDAction : YoYo Games.Common.Execute_Script
 	/// @DnDVersion : 1.1

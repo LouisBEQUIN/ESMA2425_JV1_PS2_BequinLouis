@@ -5,8 +5,8 @@
   "isDnD":true,
   "name":"Scr_casino",
   "parent":{
-    "name":"Scripts",
-    "path":"folders/Scripts.yy",
+    "name":"action",
+    "path":"folders/Scripts/action.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

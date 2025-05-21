@@ -5,8 +5,8 @@
   "isDnD":true,
   "name":"Scr_calc_ennemie_movment",
   "parent":{
-    "name":"Scripts",
-    "path":"folders/Scripts.yy",
+    "name":"ennemie",
+    "path":"folders/Scripts/ennemie.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

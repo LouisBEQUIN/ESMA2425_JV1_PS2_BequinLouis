@@ -5,8 +5,8 @@
   "isDnD":true,
   "name":"Scr_collision",
   "parent":{
-    "name":"Scripts",
-    "path":"folders/Scripts.yy",
+    "name":"character",
+    "path":"folders/Scripts/character.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

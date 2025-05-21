@@ -50,27 +50,4 @@ function Scr_weapon_pickup(weapon_spe, cooldown_spe, dammage_spe) {	/// @DnDAc
 		/// @DnDArgument : "var" "cooldown"
 		/// @DnDArgument : "var_1" "dammage"
 		cooldown = cooldown_spe;
-		dammage = dammage_spe;
-	
-		/// @DnDAction : YoYo Games.Instances.Create_Instance
-		/// @DnDVersion : 1
-		/// @DnDHash : 60EC6E26
-		/// @DnDParent : 1429CE9C
-		/// @DnDArgument : "xpos" "O_character.x"
-		/// @DnDArgument : "ypos" "O_character.y"
-		/// @DnDArgument : "objectid" "O_invent_manager.weapon"
-		/// @DnDArgument : "layer" ""weapons""
-		instance_create_layer(O_character.x, O_character.y, "weapons", O_invent_manager.weapon);
-	
-		/// @DnDAction : YoYo Games.Common.Apply_To
-		/// @DnDVersion : 1
-		/// @DnDHash : 4630613B
-		/// @DnDApplyTo : other
-		/// @DnDParent : 1429CE9C
-		with(other) {
-			/// @DnDAction : YoYo Games.Instances.Destroy_Instance
-			/// @DnDVersion : 1
-			/// @DnDHash : 2699324E
-			/// @DnDParent : 4630613B
-			instance_destroy();
-		}}}
+		dammage = dammage_spe;}}

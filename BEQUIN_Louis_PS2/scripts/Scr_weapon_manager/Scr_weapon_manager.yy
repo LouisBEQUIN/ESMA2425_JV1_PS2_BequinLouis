@@ -1,12 +1,12 @@
 {
   "$GMScript":"v1",
-  "%Name":"Scr_ennemie_anim",
+  "%Name":"Scr_weapon_manager",
   "isCompatibility":false,
   "isDnD":true,
-  "name":"Scr_ennemie_anim",
+  "name":"Scr_weapon_manager",
   "parent":{
-    "name":"ennemie",
-    "path":"folders/Scripts/ennemie.yy",
+    "name":"weapon",
+    "path":"folders/Scripts/object/weapon.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

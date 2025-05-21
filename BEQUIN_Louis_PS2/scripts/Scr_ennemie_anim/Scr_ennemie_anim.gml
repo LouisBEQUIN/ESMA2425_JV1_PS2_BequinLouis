@@ -7,11 +7,11 @@ function Scr_ennemie_anim() {	/// @DnDAction : YoYo Games.Common.Execute_Code
 	/// @DnDVersion : 1
 	/// @DnDHash : 470B71F6
 	/// @DnDParent : 2EE2BB98
-	/// @DnDArgument : "code" "/// @description Execute Code$(13_10)if (!place_meeting(x,y+1,O_wall))$(13_10){$(13_10)	one_ground_ennemie = false;$(13_10)	sprite_index = S_ennemie_J;$(13_10)	image_speed = 0;$(13_10)	if (sign(vsp) > 0) image_index = 1; else image_index = 0;$(13_10)		$(13_10)}$(13_10)else$(13_10){$(13_10)	one_ground_ennemie = true;$(13_10)	image_speed = 1;$(13_10)	if(hsp == 0)$(13_10)	{$(13_10)		sprite_index = S_ennemie_B;$(13_10)	}$(13_10)	else$(13_10)	{$(13_10)		sprite_index = S_ennemie_B;$(13_10)	}$(13_10)}$(13_10)$(13_10)if (hsp != 0) image_xscale = sign(hsp);"
+	/// @DnDArgument : "code" "/// @description Execute Code$(13_10)if (!place_meeting(x,y+1,O_wall))$(13_10){$(13_10)	on_ground_ennemie = false;$(13_10)	sprite_index = S_ennemie_J;$(13_10)	image_speed = 0;$(13_10)	if (sign(vsp) > 0) image_index = 1; else image_index = 0;$(13_10)		$(13_10)}$(13_10)else$(13_10){$(13_10)	on_ground_ennemie = true;$(13_10)	image_speed = 1;$(13_10)	if(hsp == 0)$(13_10)	{$(13_10)		sprite_index = S_ennemie_B;$(13_10)	}$(13_10)	else$(13_10)	{$(13_10)		sprite_index = S_ennemie_B;$(13_10)	}$(13_10)}$(13_10)$(13_10)if (hsp != 0) image_xscale = sign(hsp);"
 	/// @description Execute Code
 	if (!place_meeting(x,y+1,O_wall))
 	{
-		one_ground_ennemie = false;
+		on_ground_ennemie = false;
 		sprite_index = S_ennemie_J;
 		image_speed = 0;
 		if (sign(vsp) > 0) image_index = 1; else image_index = 0;
@@ -19,7 +19,7 @@ function Scr_ennemie_anim() {	/// @DnDAction : YoYo Games.Common.Execute_Code
 	}
 	else
 	{
-		one_ground_ennemie = true;
+		on_ground_ennemie = true;
 		image_speed = 1;
 		if(hsp == 0)
 		{

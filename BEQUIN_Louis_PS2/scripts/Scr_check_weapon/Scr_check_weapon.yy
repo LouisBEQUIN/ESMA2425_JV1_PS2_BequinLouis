@@ -5,8 +5,8 @@
   "isDnD":true,
   "name":"Scr_check_weapon",
   "parent":{
-    "name":"Scripts",
-    "path":"folders/Scripts.yy",
+    "name":"weapon",
+    "path":"folders/Scripts/object/weapon.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

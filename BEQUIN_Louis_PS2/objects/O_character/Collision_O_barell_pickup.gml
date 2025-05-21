@@ -1,6 +1,6 @@
 /// @DnDAction : YoYo Games.Common.Execute_Script
 /// @DnDVersion : 1.1
-/// @DnDHash : 0A258651
+/// @DnDHash : 731EB1DA
 /// @DnDInput : 3
 /// @DnDArgument : "script" "Scr_weapon_pickup"
 /// @DnDArgument : "arg" "O_barell"
