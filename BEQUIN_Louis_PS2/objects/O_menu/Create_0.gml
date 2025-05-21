@@ -55,10 +55,13 @@ menu[0] = "Exit";
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 0F06FAA2
-/// @DnDInput : 2
+/// @DnDInput : 3
 /// @DnDArgument : "expr" "array_length(menu)"
-/// @DnDArgument : "expr_1" "1"
+/// @DnDArgument : "expr_1" "menu_y - ((menu_itemheight * 1.5) * menu_items)"
+/// @DnDArgument : "expr_2" "1"
 /// @DnDArgument : "var" "menu_items"
-/// @DnDArgument : "var_1" "menu_cursor"
+/// @DnDArgument : "var_1" "menu_top"
+/// @DnDArgument : "var_2" "menu_cursor"
 menu_items = array_length(menu);
+menu_top = menu_y - ((menu_itemheight * 1.5) * menu_items);
 menu_cursor = 1;

@@ -11,3 +11,10 @@ script_execute(Scr_calc_ennemie_movment);
 /// @DnDArgument : "script" "Scr_ennemie_collision"
 /// @DnDSaveInfo : "script" "Scr_ennemie_collision"
 script_execute(Scr_ennemie_collision);
+
+/// @DnDAction : YoYo Games.Common.Execute_Script
+/// @DnDVersion : 1.1
+/// @DnDHash : 33D41033
+/// @DnDArgument : "script" "Scr_ennemie_anim"
+/// @DnDSaveInfo : "script" "Scr_ennemie_anim"
+script_execute(Scr_ennemie_anim);

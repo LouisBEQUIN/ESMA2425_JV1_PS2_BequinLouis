@@ -1,9 +1,9 @@
-/// @DnDAction : YoYo Games.Common.Execute_Script
-/// @DnDVersion : 1.1
-/// @DnDHash : 7223501F
-/// @DnDArgument : "script" "Scr_calc_ennemie_movment"
-/// @DnDSaveInfo : "script" "Scr_calc_ennemie_movment"
-script_execute(Scr_calc_ennemie_movment);
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 649AC70A
+/// @DnDArgument : "expr" "vsp + grv"
+/// @DnDArgument : "var" "vsp"
+vsp = vsp + grv;
 
 /// @DnDAction : YoYo Games.Common.Execute_Script
 /// @DnDVersion : 1.1
