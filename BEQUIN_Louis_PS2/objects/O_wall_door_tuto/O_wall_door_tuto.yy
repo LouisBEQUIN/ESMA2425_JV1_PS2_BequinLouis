@@ -1,17 +1,18 @@
 {
   "$GMObject":"",
-  "%Name":"O_passage_speed",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"O_character","path":"objects/O_character/O_character.yy",},"eventNum":0,"eventType":4,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"O_wall_door_tuto",
+  "eventList":[],
   "managed":true,
-  "name":"O_passage_speed",
+  "name":"O_wall_door_tuto",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
     "path":"folders/Objects.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"O_wall",
+    "path":"objects/O_wall/O_wall.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -30,9 +31,9 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"S_passage_speed",
-    "path":"sprites/S_passage_speed/S_passage_speed.yy",
+    "name":"S_wall",
+    "path":"sprites/S_wall/S_wall.yy",
   },
   "spriteMaskId":null,
-  "visible":false,
+  "visible":true,
 }

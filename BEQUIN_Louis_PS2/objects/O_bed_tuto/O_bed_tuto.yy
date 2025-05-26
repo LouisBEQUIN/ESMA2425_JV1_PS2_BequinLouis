@@ -5,7 +5,7 @@
   "managed":true,
   "name":"O_bed_tuto",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_sign_manager","path":"objects/O_sign_manager/O_sign_manager.yy",},"propertyId":{"name":"text","path":"objects/O_sign_manager/O_sign_manager.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"\"....\\n\"",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_sign_manager","path":"objects/O_sign_manager/O_sign_manager.yy",},"propertyId":{"name":"text","path":"objects/O_sign_manager/O_sign_manager.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"\"....\\nFaut que j'aille au casino...\\nMais j'ai pas d'argent...\"",},
   ],
   "parent":{
     "name":"Objects",

@@ -1,13 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"O_text",
+  "%Name":"O_text_interact",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"O_text",
+  "name":"O_text_interact",
   "overriddenProperties":[],
   "parent":{
     "name":"manager",
@@ -28,7 +28,7 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v1","%Name":"text_to_show","filters":[],"listItems":[],"multiselect":false,"name":"text_to_show","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"\"^ Space\"","varType":2,},
+    {"$GMObjectProperty":"v1","%Name":"text_to_show","filters":[],"listItems":[],"multiselect":false,"name":"text_to_show","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"\"E to interact,grab\"","varType":2,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

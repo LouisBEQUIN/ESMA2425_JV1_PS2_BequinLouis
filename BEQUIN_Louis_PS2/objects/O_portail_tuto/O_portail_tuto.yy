@@ -1,11 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"O_passage_speed",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"O_character","path":"objects/O_character/O_character.yy",},"eventNum":0,"eventType":4,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"O_portail_tuto",
+  "eventList":[],
   "managed":true,
-  "name":"O_passage_speed",
+  "name":"O_portail_tuto",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -30,9 +28,9 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"S_passage_speed",
-    "path":"sprites/S_passage_speed/S_passage_speed.yy",
+    "name":"S_portail_tuto",
+    "path":"sprites/S_portail_tuto/S_portail_tuto.yy",
   },
   "spriteMaskId":null,
-  "visible":false,
+  "visible":true,
 }
