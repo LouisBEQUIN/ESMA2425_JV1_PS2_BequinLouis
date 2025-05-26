@@ -46,9 +46,9 @@ function Scr_calc_movment() {	/// @DnDAction : YoYo Games.Common.Temp_Variable
 			/// @DnDVersion : 1
 			/// @DnDHash : 7AF6A491
 			/// @DnDParent : 596B2530
-			/// @DnDArgument : "expr" "-5"
+			/// @DnDArgument : "expr" "-7"
 			/// @DnDArgument : "var" "vsp"
-			vsp = -5;
+			vsp = -7;
 		
 			/// @DnDAction : YoYo Games.Common.Variable
 			/// @DnDVersion : 1

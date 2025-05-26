@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"Scr_drop_zone_item_1",
+  "isCompatibility":false,
+  "isDnD":true,
+  "name":"Scr_drop_zone_item_1",
+  "parent":{
+    "name":"items",
+    "path":"folders/Scripts/object/items.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

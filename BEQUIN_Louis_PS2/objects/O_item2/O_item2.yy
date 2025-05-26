@@ -1,18 +1,20 @@
 {
   "$GMObject":"",
   "%Name":"O_item2",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "eventList":[],
   "managed":true,
   "name":"O_item2",
-  "overriddenProperties":[],
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_item_manager","path":"objects/O_item_manager/O_item_manager.yy",},"propertyId":{"name":"_item","path":"objects/O_item_manager/O_item_manager.yy",},"resource":{"name":"O_item2","path":"objects/O_item2/O_item2.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"O_item2",},
+  ],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"item",
+    "path":"folders/Objects/item.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"O_item_manager",
+    "path":"objects/O_item_manager/O_item_manager.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

@@ -12,15 +12,10 @@ function Scr_check_item() {	/// @DnDAction : YoYo Games.Common.If_Variable
 	/// @DnDArgument : "not" "1"
 	/// @DnDArgument : "value" "noone"
 	with(O_invent_manager) var l17DF692E_0 = item == noone;
-	if(!l17DF692E_0){	/// @DnDAction : YoYo Games.Instances.Create_Instance
-		/// @DnDVersion : 1
-		/// @DnDHash : 647AB41C
-		/// @DnDApplyTo : {O_invent_manager}
+	if(!l17DF692E_0){	/// @DnDAction : YoYo Games.Common.Execute_Script
+		/// @DnDVersion : 1.1
+		/// @DnDHash : 098A8DBE
 		/// @DnDParent : 17DF692E
-		/// @DnDArgument : "xpos" "O_character.x + 16"
-		/// @DnDArgument : "ypos" "O_character.y -32"
-		/// @DnDArgument : "objectid" "item"
-		/// @DnDArgument : "layer" ""weapons""
-		with(O_invent_manager) {
-			instance_create_layer(O_character.x + 16, O_character.y -32, "weapons", item); 
-		}}}
+		/// @DnDArgument : "script" "Scr_what_items"
+		/// @DnDSaveInfo : "script" "Scr_what_items"
+		script_execute(Scr_what_items);}}

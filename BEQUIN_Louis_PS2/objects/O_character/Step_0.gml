@@ -29,9 +29,9 @@ script_execute(Scr_collision);
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
 /// @DnDHash : 67DA2813
-/// @DnDArgument : "var" "character_life"
+/// @DnDArgument : "var" "global.character_life"
 /// @DnDArgument : "op" "3"
-if(character_life <= 0){	/// @DnDAction : YoYo Games.Instances.Change_Instance
+if(global.character_life <= 0){	/// @DnDAction : YoYo Games.Instances.Change_Instance
 	/// @DnDVersion : 1
 	/// @DnDHash : 01038F4B
 	/// @DnDParent : 67DA2813
@@ -46,13 +46,6 @@ if(character_life <= 0){	/// @DnDAction : YoYo Games.Instances.Change_Instance
 	/// @DnDArgument : "code" "vsp = -2;$(13_10)if (sign(hsp) != 0) image_xscale = sign(hsp);$(13_10)"
 	vsp = -2;
 	if (sign(hsp) != 0) image_xscale = sign(hsp);
-
-	/// @DnDAction : YoYo Games.Instances.Destroy_Instance
-	/// @DnDVersion : 1
-	/// @DnDHash : 36BE88EE
-	/// @DnDApplyTo : {O_invent_manager}
-	/// @DnDParent : 67DA2813
-	with(O_invent_manager) instance_destroy();
 
 	/// @DnDAction : YoYo Games.Instances.Destroy_Instance
 	/// @DnDVersion : 1

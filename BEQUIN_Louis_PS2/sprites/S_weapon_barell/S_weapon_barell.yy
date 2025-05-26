@@ -1,8 +1,8 @@
 {
   "$GMSprite":"",
   "%Name":"S_weapon_barell",
-  "bboxMode":0,
-  "bbox_bottom":23,
+  "bboxMode":2,
+  "bbox_bottom":28,
   "bbox_left":14,
   "bbox_right":51,
   "bbox_top":8,

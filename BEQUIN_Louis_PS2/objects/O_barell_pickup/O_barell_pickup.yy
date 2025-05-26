@@ -1,18 +1,22 @@
 {
   "$GMObject":"",
   "%Name":"O_barell_pickup",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"O_character","path":"objects/O_character/O_character.yy",},"eventNum":0,"eventType":4,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "eventList":[],
   "managed":true,
   "name":"O_barell_pickup",
-  "overriddenProperties":[],
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_weapon_pickup_manager","path":"objects/O_weapon_pickup_manager/O_weapon_pickup_manager.yy",},"propertyId":{"name":"weapon_to_pickup","path":"objects/O_weapon_pickup_manager/O_weapon_pickup_manager.yy",},"resource":{"name":"O_barell","path":"objects/O_barell/O_barell.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"O_barell",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_weapon_pickup_manager","path":"objects/O_weapon_pickup_manager/O_weapon_pickup_manager.yy",},"propertyId":{"name":"cooldown_of_weapon","path":"objects/O_weapon_pickup_manager/O_weapon_pickup_manager.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"10",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_weapon_pickup_manager","path":"objects/O_weapon_pickup_manager/O_weapon_pickup_manager.yy",},"propertyId":{"name":"dammage_of_weapon","path":"objects/O_weapon_pickup_manager/O_weapon_pickup_manager.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"1",},
+  ],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"weapon",
+    "path":"folders/Objects/weapon.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"O_weapon_pickup_manager",
+    "path":"objects/O_weapon_pickup_manager/O_weapon_pickup_manager.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -31,8 +35,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"S_weapon_barell",
-    "path":"sprites/S_weapon_barell/S_weapon_barell.yy",
+    "name":"S_weapon_barell_pickup",
+    "path":"sprites/S_weapon_barell_pickup/S_weapon_barell_pickup.yy",
   },
   "spriteMaskId":null,
   "visible":true,

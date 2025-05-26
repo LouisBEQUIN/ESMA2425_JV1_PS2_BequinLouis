@@ -19,9 +19,9 @@ function Scr_reduc_life(amount) {	/// @DnDAction : YoYo Games.Common.If_Variab
 		/// @DnDArgument : "expr" "-amount"
 		/// @DnDArgument : "expr_relative" "1"
 		/// @DnDArgument : "expr_1" "true"
-		/// @DnDArgument : "var" "O_character.character_life"
+		/// @DnDArgument : "var" "global.character_life"
 		/// @DnDArgument : "var_1" "O_character.isinvincible"
-		O_character.character_life += -amount;
+		global.character_life += -amount;
 		O_character.isinvincible = true;
 	
 		/// @DnDAction : YoYo Games.Common.Execute_Script

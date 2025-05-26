@@ -8,6 +8,6 @@ vsp = vsp + grv;
 /// @DnDAction : YoYo Games.Common.Execute_Script
 /// @DnDVersion : 1.1
 /// @DnDHash : 26FBF236
-/// @DnDArgument : "script" "Scr_ennemie_dead_collision"
-/// @DnDSaveInfo : "script" "Scr_ennemie_dead_collision"
-script_execute(Scr_ennemie_dead_collision);
+/// @DnDArgument : "script" "Scr_items_collision"
+/// @DnDSaveInfo : "script" "Scr_items_collision"
+script_execute(Scr_items_collision);

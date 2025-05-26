@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"Scr_items_collision",
+  "isCompatibility":false,
+  "isDnD":true,
+  "name":"Scr_items_collision",
+  "parent":{
+    "name":"items",
+    "path":"folders/Scripts/object/items.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

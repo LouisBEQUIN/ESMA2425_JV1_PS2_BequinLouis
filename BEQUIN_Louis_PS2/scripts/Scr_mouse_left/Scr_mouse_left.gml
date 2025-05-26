@@ -45,10 +45,10 @@ function Scr_mouse_left() {	/// @DnDAction : YoYo Games.Common.If_Variable
 		/// @DnDAction : YoYo Games.Instances.Set_Alarm
 		/// @DnDVersion : 1
 		/// @DnDHash : 2861B047
-		/// @DnDApplyTo : {O_character}
+		/// @DnDApplyTo : {O_invent_manager}
 		/// @DnDParent : 743B00FC
 		/// @DnDArgument : "steps" "cooldown"
-		with(O_character) {
+		with(O_invent_manager) {
 		alarm_set(0, cooldown);
 		
 		}}}

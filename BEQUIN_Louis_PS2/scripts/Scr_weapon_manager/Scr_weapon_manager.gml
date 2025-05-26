@@ -12,7 +12,17 @@ function Scr_weapon_manager(_weapon) {	/// @DnDAction : YoYo Games.Common.If_V
 	/// @DnDArgument : "var" "weapon"
 	/// @DnDArgument : "value" "_weapon"
 	with(O_invent_manager) var l1F8BF8FA_0 = weapon == _weapon;
-	if(l1F8BF8FA_0){	/// @DnDAction : YoYo Games.Common.Variable
+	if(l1F8BF8FA_0){	/// @DnDAction : YoYo Games.Instances.Create_Instance
+		/// @DnDVersion : 1
+		/// @DnDHash : 370EBA0A
+		/// @DnDParent : 1F8BF8FA
+		/// @DnDArgument : "xpos" "O_character.x"
+		/// @DnDArgument : "ypos" "O_character.y"
+		/// @DnDArgument : "objectid" "weapon"
+		/// @DnDArgument : "layer" ""weapons""
+		instance_create_layer(O_character.x, O_character.y, "weapons", weapon);
+	
+		/// @DnDAction : YoYo Games.Common.Variable
 		/// @DnDVersion : 1
 		/// @DnDHash : 61B07CE9
 		/// @DnDParent : 1F8BF8FA

@@ -1,19 +1,21 @@
 {
   "$GMObject":"",
   "%Name":"O_barell",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":1,"eventType":3,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "eventList":[],
   "managed":true,
   "name":"O_barell",
-  "overriddenProperties":[],
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_weapon_manager","path":"objects/O_weapon_manager/O_weapon_manager.yy",},"propertyId":{"name":"_weapon","path":"objects/O_weapon_manager/O_weapon_manager.yy",},"resource":{"name":"O_barell","path":"objects/O_barell/O_barell.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"O_barell",},
+  ],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"weapon",
+    "path":"folders/Objects/weapon.yy",
   },
-  "parentObjectId":null,
-  "persistent":true,
+  "parentObjectId":{
+    "name":"O_weapon_manager",
+    "path":"objects/O_weapon_manager/O_weapon_manager.yy",
+  },
+  "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
   "physicsFriction":0.2,
