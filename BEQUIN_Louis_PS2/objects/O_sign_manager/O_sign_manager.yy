@@ -1,11 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"O_sign",
+  "%Name":"O_sign_manager",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"O_character","path":"objects/O_character/O_character.yy",},"eventNum":0,"eventType":4,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"O_sign",
+  "name":"O_sign_manager",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",

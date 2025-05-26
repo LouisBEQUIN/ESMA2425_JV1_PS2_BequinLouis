@@ -21,8 +21,7 @@ var l14CDFC8A_0;l14CDFC8A_0 = keyboard_check_pressed(ord("E"));if (l14CDFC8A_0
 	/// @DnDArgument : "xpos" "O_character.x"
 	/// @DnDArgument : "ypos" "O_character.y + 6"
 	/// @DnDArgument : "objectid" "O_invent_manager.weapon"
-	/// @DnDArgument : "layer" ""weapons""
-	instance_create_layer(O_character.x, O_character.y + 6, "weapons", O_invent_manager.weapon);
+	instance_create_layer(O_character.x, O_character.y + 6, "Instances", O_invent_manager.weapon);
 
 	/// @DnDAction : YoYo Games.Instances.Destroy_Instance
 	/// @DnDVersion : 1

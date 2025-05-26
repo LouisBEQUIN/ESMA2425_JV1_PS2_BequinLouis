@@ -12,6 +12,12 @@
 /// @DnDArgument : "barcol" "$00FFFFFF"
 with(O_invent_manager) draw_healthbar(530, 720, 835, 740, (alarm_get(0) / cooldown) * 100, $00000000 & $FFFFFF, $FFFFFF & $FFFFFF, $FFFFFF & $FFFFFF, 1, (($00000000>>24) != 0), (($00FFFFFF>>24) != 0));
 
+/// @DnDAction : YoYo Games.Common.Execute_Code
+/// @DnDVersion : 1
+/// @DnDHash : 236A60F7
+/// @DnDArgument : "code" "//draw_sprite(S_credit_gui,image_index, 1000, 200);$(13_10)"
+//draw_sprite(S_credit_gui,image_index, 1000, 200);
+
 /// @DnDAction : YoYo Games.Drawing.Draw_Sprites_Stacked
 /// @DnDVersion : 1
 /// @DnDHash : 2D0FF0B8
@@ -24,7 +30,7 @@ var l2D0FF0B8_0 = sprite_get_width(S_heart_GUI);var l2D0FF0B8_1 = 0;for(var l2
 
 /// @DnDAction : YoYo Games.Drawing.Draw_Sprite_Transformed
 /// @DnDVersion : 1
-/// @DnDHash : 4853FD0C
+/// @DnDHash : 43B01018
 /// @DnDArgument : "x" "1270"
 /// @DnDArgument : "y" "60"
 /// @DnDArgument : "xscale" "2"
@@ -115,13 +121,19 @@ draw_text_transformed(1180, 45, "" + string(variable), 2, 2, 0);
 /// @DnDArgument : "text" "global.credit_count % 10"
 draw_text_transformed(1220, 45, "" + string(global.credit_count % 10), 2, 2, 0);
 
-/// @DnDAction : YoYo Games.Drawing.Draw_Sprite_Transformed
+/// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
-/// @DnDHash : 70C9C97D
-/// @DnDArgument : "x" "1220"
-/// @DnDArgument : "y" "150"
-/// @DnDArgument : "xscale" "6"
-/// @DnDArgument : "yscale" "6"
-/// @DnDArgument : "sprite" "S_Lootbar_GUI"
-/// @DnDSaveInfo : "sprite" "S_Lootbar_GUI"
-draw_sprite_ext(S_Lootbar_GUI, 0, 1220, 150, 6, 6, 0, $FFFFFF & $ffffff, 1);
+/// @DnDHash : 797961DD
+/// @DnDArgument : "var" "global.is_in_dungeon"
+/// @DnDArgument : "value" "true"
+if(global.is_in_dungeon == true){	/// @DnDAction : YoYo Games.Drawing.Draw_Sprite_Transformed
+	/// @DnDVersion : 1
+	/// @DnDHash : 70C9C97D
+	/// @DnDParent : 797961DD
+	/// @DnDArgument : "x" "1220"
+	/// @DnDArgument : "y" "150"
+	/// @DnDArgument : "xscale" "6"
+	/// @DnDArgument : "yscale" "6"
+	/// @DnDArgument : "sprite" "S_Lootbar_GUI"
+	/// @DnDSaveInfo : "sprite" "S_Lootbar_GUI"
+	draw_sprite_ext(S_Lootbar_GUI, 0, 1220, 150, 6, 6, 0, $FFFFFF & $ffffff, 1);}

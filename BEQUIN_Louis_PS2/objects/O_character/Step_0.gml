@@ -28,6 +28,19 @@ script_execute(Scr_collision);
 
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
+/// @DnDHash : 7AEA92BF
+/// @DnDArgument : "var" "global.is_in_dungeon"
+/// @DnDArgument : "value" "false"
+if(global.is_in_dungeon == false){	/// @DnDAction : YoYo Games.Common.Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 46146188
+	/// @DnDParent : 7AEA92BF
+	/// @DnDArgument : "expr" "true"
+	/// @DnDArgument : "var" "hascontrol"
+	hascontrol = true;}
+
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
 /// @DnDHash : 67DA2813
 /// @DnDArgument : "var" "global.character_life"
 /// @DnDArgument : "op" "3"
