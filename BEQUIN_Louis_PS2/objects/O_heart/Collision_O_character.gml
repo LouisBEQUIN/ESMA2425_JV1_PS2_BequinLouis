@@ -21,6 +21,14 @@ if(global.character_life < 5){	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDSaveInfo : "script" "Scr_sceenshake"
 	script_execute(Scr_sceenshake);
 
+	/// @DnDAction : YoYo Games.Common.Execute_Script
+	/// @DnDVersion : 1.1
+	/// @DnDHash : 0EBB6EBB
+	/// @DnDParent : 07B19C2F
+	/// @DnDArgument : "script" "Scr_UI_anim"
+	/// @DnDSaveInfo : "script" "Scr_UI_anim"
+	script_execute(Scr_UI_anim);
+
 	/// @DnDAction : YoYo Games.Instances.Change_Instance
 	/// @DnDVersion : 1
 	/// @DnDHash : 74F14FF4

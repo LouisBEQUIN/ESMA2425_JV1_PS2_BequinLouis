@@ -19,8 +19,8 @@ function Scr_weapon_manager(_weapon) {	/// @DnDAction : YoYo Games.Common.If_V
 		/// @DnDArgument : "xpos" "O_character.x"
 		/// @DnDArgument : "ypos" "O_character.y"
 		/// @DnDArgument : "objectid" "weapon"
-		/// @DnDArgument : "layer" ""weapons""
-		instance_create_layer(O_character.x, O_character.y, "weapons", weapon);
+		/// @DnDArgument : "layer" ""weapons_current""
+		instance_create_layer(O_character.x, O_character.y, "weapons_current", weapon);
 	
 		/// @DnDAction : YoYo Games.Common.Variable
 		/// @DnDVersion : 1

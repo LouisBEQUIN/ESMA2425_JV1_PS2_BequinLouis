@@ -8,8 +8,8 @@
   "name":"O_go_to_level",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"invisible object",
+    "path":"folders/Objects/invisible object.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -34,5 +34,5 @@
     "path":"sprites/S_trigger_gotoroom/S_trigger_gotoroom.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }

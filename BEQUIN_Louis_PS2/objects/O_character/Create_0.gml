@@ -4,7 +4,8 @@
 /// @DnDArgument : "xpos" "O_character.x"
 /// @DnDArgument : "ypos" "O_character.y + 6"
 /// @DnDArgument : "objectid" "O_invent_manager.weapon"
-instance_create_layer(O_character.x, O_character.y + 6, "Instances", O_invent_manager.weapon);
+/// @DnDArgument : "layer" ""weapons_current""
+instance_create_layer(O_character.x, O_character.y + 6, "weapons_current", O_invent_manager.weapon);
 
 /// @DnDAction : YoYo Games.Instances.If_Instance_Exists
 /// @DnDVersion : 1

@@ -10,8 +10,8 @@
   "name":"O_bullet",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"weapon",
+    "path":"folders/Objects/weapon.yy",
   },
   "parentObjectId":null,
   "persistent":false,

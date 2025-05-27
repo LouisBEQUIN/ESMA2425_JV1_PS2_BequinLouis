@@ -13,6 +13,13 @@ global.credit_count += +5;
 /// @DnDSaveInfo : "script" "Scr_sceenshake"
 script_execute(Scr_sceenshake);
 
+/// @DnDAction : YoYo Games.Common.Execute_Script
+/// @DnDVersion : 1.1
+/// @DnDHash : 33FF4920
+/// @DnDArgument : "script" "Scr_UI_anim"
+/// @DnDSaveInfo : "script" "Scr_UI_anim"
+script_execute(Scr_UI_anim);
+
 /// @DnDAction : YoYo Games.Instances.Change_Instance
 /// @DnDVersion : 1
 /// @DnDHash : 1BACEB85

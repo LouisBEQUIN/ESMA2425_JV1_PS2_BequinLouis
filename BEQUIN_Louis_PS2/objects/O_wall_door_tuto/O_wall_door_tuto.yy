@@ -6,8 +6,8 @@
   "name":"O_wall_door_tuto",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"invisible object",
+    "path":"folders/Objects/invisible object.yy",
   },
   "parentObjectId":{
     "name":"O_wall",

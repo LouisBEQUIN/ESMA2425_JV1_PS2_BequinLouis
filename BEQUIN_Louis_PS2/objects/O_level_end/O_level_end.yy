@@ -8,8 +8,8 @@
   "name":"O_level_end",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"invisible object",
+    "path":"folders/Objects/invisible object.yy",
   },
   "parentObjectId":null,
   "persistent":false,

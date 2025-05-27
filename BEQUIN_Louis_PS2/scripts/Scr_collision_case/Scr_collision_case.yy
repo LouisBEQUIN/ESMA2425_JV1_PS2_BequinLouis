@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"Scr_collision_case",
+  "isCompatibility":false,
+  "isDnD":true,
+  "name":"Scr_collision_case",
+  "parent":{
+    "name":"character",
+    "path":"folders/Scripts/character.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

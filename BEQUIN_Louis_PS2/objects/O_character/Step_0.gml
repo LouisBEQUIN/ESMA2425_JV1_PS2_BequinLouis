@@ -1,3 +1,9 @@
+/// @DnDAction : YoYo Games.Miscellaneous.Debug_Show_Message
+/// @DnDVersion : 1
+/// @DnDHash : 2EBB291F
+/// @DnDArgument : "msg" "O_drop_zone_manager.is_item_1"
+show_debug_message(string(O_drop_zone_manager.is_item_1));
+
 /// @DnDAction : YoYo Games.Common.Execute_Script
 /// @DnDVersion : 1.1
 /// @DnDHash : 0EF54AE9

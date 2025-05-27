@@ -10,8 +10,8 @@
   "name":"O_text_drop",
   "overriddenProperties":[],
   "parent":{
-    "name":"manager",
-    "path":"folders/Objects/manager.yy",
+    "name":"tuto",
+    "path":"folders/Objects/text/tuto.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -28,7 +28,7 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v1","%Name":"text_to_show","filters":[],"listItems":[],"multiselect":false,"name":"text_to_show","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"\"F to drop item\"","varType":2,},
+    {"$GMObjectProperty":"v1","%Name":"text_to_show","filters":[],"listItems":[],"multiselect":false,"name":"text_to_show","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"\"F pour poser les objets\"","varType":2,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
