@@ -6,6 +6,7 @@
   "name":"O_item2",
   "overriddenProperties":[
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_item_manager","path":"objects/O_item_manager/O_item_manager.yy",},"propertyId":{"name":"_item","path":"objects/O_item_manager/O_item_manager.yy",},"resource":{"name":"O_item2","path":"objects/O_item2/O_item2.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"O_item2",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_item_manager","path":"objects/O_item_manager/O_item_manager.yy",},"propertyId":{"name":"_rarity_to_sell","path":"objects/O_item_manager/O_item_manager.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"1",},
   ],
   "parent":{
     "name":"item",
@@ -33,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"S_item2",
-    "path":"sprites/S_item2/S_item2.yy",
+    "name":"S_artefact_1",
+    "path":"sprites/S_artefact_1/S_artefact_1.yy",
   },
   "spriteMaskId":null,
   "visible":true,

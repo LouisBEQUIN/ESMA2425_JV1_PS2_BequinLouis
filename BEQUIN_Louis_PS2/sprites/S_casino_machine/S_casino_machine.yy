@@ -1,11 +1,11 @@
 {
   "$GMSprite":"",
   "%Name":"S_casino_machine",
-  "bboxMode":0,
-  "bbox_bottom":63,
-  "bbox_left":0,
-  "bbox_right":63,
-  "bbox_top":0,
+  "bboxMode":2,
+  "bbox_bottom":95,
+  "bbox_left":11,
+  "bbox_right":53,
+  "bbox_top":48,
   "collisionKind":1,
   "collisionTolerance":0,
   "DynamicTexturePage":false,
@@ -13,12 +13,26 @@
   "For3D":false,
   "frames":[
     {"$GMSpriteFrame":"","%Name":"241f945d-6501-4abd-8327-8f6aeebd0695","name":"241f945d-6501-4abd-8327-8f6aeebd0695","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"fbdbacca-1c0a-400f-a302-e8a61ec81781","name":"fbdbacca-1c0a-400f-a302-e8a61ec81781","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"04eb1938-7af3-4e69-99b9-1cd72ea2f94d","name":"04eb1938-7af3-4e69-99b9-1cd72ea2f94d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"3e012d70-5072-48d1-b8bd-61f778a88a10","name":"3e012d70-5072-48d1-b8bd-61f778a88a10","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"a9f90755-0c11-448c-a549-8a20608705a8","name":"a9f90755-0c11-448c-a549-8a20608705a8","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"909c63f4-e69c-4b43-8b28-d2f104688474","name":"909c63f4-e69c-4b43-8b28-d2f104688474","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"ca5796e9-508a-485b-9cec-e321f32b4a8a","name":"ca5796e9-508a-485b-9cec-e321f32b4a8a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"463091dc-776d-4b62-b1b3-ca1b5936d07d","name":"463091dc-776d-4b62-b1b3-ca1b5936d07d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"85dc3821-b1cc-4dd0-8bc7-a2493bc53ebe","name":"85dc3821-b1cc-4dd0-8bc7-a2493bc53ebe","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"1b5a745f-d587-4e8d-b476-7c97015ea8b1","name":"1b5a745f-d587-4e8d-b476-7c97015ea8b1","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"97b62702-7259-40b0-9450-f0261eacdde8","name":"97b62702-7259-40b0-9450-f0261eacdde8","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"cf9c4629-ba9b-4c24-8a02-ea336358250e","name":"cf9c4629-ba9b-4c24-8a02-ea336358250e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"4d020bab-1864-4b13-929d-54fc0a3980c0","name":"4d020bab-1864-4b13-929d-54fc0a3980c0","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
-  "gridX":0,
-  "gridY":0,
-  "height":64,
+  "gridX":32,
+  "gridY":32,
+  "height":96,
   "HTile":false,
   "layers":[
+    {"$GMImageLayer":"","%Name":"4b35edf2-66a3-420a-850f-f1853779be33","blendMode":0,"displayName":"Layer 2","isLocked":false,"name":"4b35edf2-66a3-420a-850f-f1853779be33","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"b457a1f1-f0c4-4b23-bc62-a6bf5d8a3767","blendMode":0,"displayName":"Layer 1","isLocked":false,"name":"b457a1f1-f0c4-4b23-bc62-a6bf5d8a3767","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
     {"$GMImageLayer":"","%Name":"29ad0988-faf6-4c5c-b02d-f01f69c2b6d8","blendMode":0,"displayName":"default","isLocked":false,"name":"29ad0988-faf6-4c5c-b02d-f01f69c2b6d8","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"S_casino_machine",
@@ -49,7 +63,7 @@
     },
     "eventStubScript":null,
     "eventToFunction":{},
-    "length":1.0,
+    "length":13.0,
     "lockOrigin":false,
     "moments":{
       "$KeyframeStore<MomentsEventKeyframe>":"",
@@ -59,11 +73,11 @@
     },
     "name":"S_casino_machine",
     "playback":1,
-    "playbackSpeed":30.0,
+    "playbackSpeed":6.0,
     "playbackSpeedType":0,
     "resourceType":"GMSequence",
     "resourceVersion":"2.0",
-    "seqHeight":64.0,
+    "seqHeight":96.0,
     "seqWidth":64.0,
     "showBackdrop":true,
     "showBackdropImage":false,
@@ -73,6 +87,42 @@
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"241f945d-6501-4abd-8327-8f6aeebd0695","path":"sprites/S_casino_machine/S_casino_machine.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"36c2fd98-9f7c-4886-aedf-dd6cdbddd584","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"fbdbacca-1c0a-400f-a302-e8a61ec81781","path":"sprites/S_casino_machine/S_casino_machine.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"8cc8d547-e7ce-4106-99a9-30633769902e","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"04eb1938-7af3-4e69-99b9-1cd72ea2f94d","path":"sprites/S_casino_machine/S_casino_machine.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"2496f5e2-f67a-42c5-bb0e-26715caa3b58","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"3e012d70-5072-48d1-b8bd-61f778a88a10","path":"sprites/S_casino_machine/S_casino_machine.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"681ea433-4dc7-437e-ba69-2d566300a034","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"a9f90755-0c11-448c-a549-8a20608705a8","path":"sprites/S_casino_machine/S_casino_machine.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"5a25c22f-9639-4208-95cb-b501c55155d2","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"909c63f4-e69c-4b43-8b28-d2f104688474","path":"sprites/S_casino_machine/S_casino_machine.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"9486c2f3-446f-4454-9725-53b90c68b616","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"ca5796e9-508a-485b-9cec-e321f32b4a8a","path":"sprites/S_casino_machine/S_casino_machine.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"78b4380b-e69b-4431-b7e3-a6156c9f97af","IsCreationKey":false,"Key":6.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"463091dc-776d-4b62-b1b3-ca1b5936d07d","path":"sprites/S_casino_machine/S_casino_machine.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"89231561-a975-4485-ad6c-27b1e3c43097","IsCreationKey":false,"Key":7.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"85dc3821-b1cc-4dd0-8bc7-a2493bc53ebe","path":"sprites/S_casino_machine/S_casino_machine.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"1e137ab7-a7c9-4f43-bc9c-7f30a558642d","IsCreationKey":false,"Key":8.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"1b5a745f-d587-4e8d-b476-7c97015ea8b1","path":"sprites/S_casino_machine/S_casino_machine.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"f400495d-b850-4d1a-b9db-adee9498b3b7","IsCreationKey":false,"Key":9.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"97b62702-7259-40b0-9450-f0261eacdde8","path":"sprites/S_casino_machine/S_casino_machine.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"12423767-5d65-464f-9b75-f1035fe8a4ab","IsCreationKey":false,"Key":10.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"cf9c4629-ba9b-4c24-8a02-ea336358250e","path":"sprites/S_casino_machine/S_casino_machine.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"e8b906fa-2f1b-444a-9111-d78fad837462","IsCreationKey":false,"Key":11.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"4d020bab-1864-4b13-929d-54fc0a3980c0","path":"sprites/S_casino_machine/S_casino_machine.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"38a4c862-0b12-4198-8961-d438978056b4","IsCreationKey":false,"Key":12.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

@@ -34,5 +34,5 @@
     "path":"sprites/S_trigger_tuto_end/S_trigger_tuto_end.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }

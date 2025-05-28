@@ -1,19 +1,20 @@
 {
   "$GMObject":"",
   "%Name":"O_heart",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"O_character","path":"objects/O_character/O_character.yy",},"eventNum":0,"eventType":4,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "eventList":[],
   "managed":true,
   "name":"O_heart",
-  "overriddenProperties":[],
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_item_manager","path":"objects/O_item_manager/O_item_manager.yy",},"propertyId":{"name":"_item","path":"objects/O_item_manager/O_item_manager.yy",},"resource":{"name":"O_heart","path":"objects/O_heart/O_heart.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"O_heart",},
+  ],
   "parent":{
     "name":"item",
     "path":"folders/Objects/item.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"O_item_manager",
+    "path":"objects/O_item_manager/O_item_manager.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

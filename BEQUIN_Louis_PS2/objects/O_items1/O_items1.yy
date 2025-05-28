@@ -6,6 +6,7 @@
   "name":"O_items1",
   "overriddenProperties":[
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_item_manager","path":"objects/O_item_manager/O_item_manager.yy",},"propertyId":{"name":"_item","path":"objects/O_item_manager/O_item_manager.yy",},"resource":{"name":"O_items1","path":"objects/O_items1/O_items1.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"O_items1",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_item_manager","path":"objects/O_item_manager/O_item_manager.yy",},"propertyId":{"name":"_rarity_to_sell","path":"objects/O_item_manager/O_item_manager.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"2",},
   ],
   "parent":{
     "name":"item",
@@ -33,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"S_items1",
-    "path":"sprites/S_items1/S_items1.yy",
+    "name":"S_artefact_2",
+    "path":"sprites/S_artefact_2/S_artefact_2.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -79,4 +79,30 @@ function Scr_what_items() {	/// @DnDAction : YoYo Games.Common.If_Variable
 		/// @DnDHash : 7FF30331
 		/// @DnDApplyTo : {O_key_tuto}
 		/// @DnDParent : 5A5BE694
-		with(O_key_tuto) instance_destroy();}}
+		with(O_key_tuto) instance_destroy();}
+
+	/// @DnDAction : YoYo Games.Common.If_Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 0CC86BEB
+	/// @DnDApplyTo : {O_invent_manager}
+	/// @DnDParent : 50B31584
+	/// @DnDArgument : "var" "item"
+	/// @DnDArgument : "value" "O_heart"
+	with(O_invent_manager) var l0CC86BEB_0 = item == O_heart;
+	if(l0CC86BEB_0){	/// @DnDAction : YoYo Games.Instances.Create_Instance
+		/// @DnDVersion : 1
+		/// @DnDHash : 77F76BE7
+		/// @DnDParent : 0CC86BEB
+		/// @DnDArgument : "xpos" "O_character.x"
+		/// @DnDArgument : "ypos" "O_character.y - 35"
+		/// @DnDArgument : "objectid" "O_heart_pickup"
+		/// @DnDArgument : "layer" ""items""
+		/// @DnDSaveInfo : "objectid" "O_heart_pickup"
+		instance_create_layer(O_character.x, O_character.y - 35, "items", O_heart_pickup);
+	
+		/// @DnDAction : YoYo Games.Instances.Destroy_Instance
+		/// @DnDVersion : 1
+		/// @DnDHash : 323CBB00
+		/// @DnDApplyTo : {O_heart}
+		/// @DnDParent : 0CC86BEB
+		with(O_heart) instance_destroy();}}

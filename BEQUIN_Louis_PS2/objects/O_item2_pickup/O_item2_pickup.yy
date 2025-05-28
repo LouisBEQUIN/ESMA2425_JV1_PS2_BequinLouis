@@ -35,8 +35,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"S_item2_pickup",
-    "path":"sprites/S_item2_pickup/S_item2_pickup.yy",
+    "name":"S_artefact_1_pickup",
+    "path":"sprites/S_artefact_1_pickup/S_artefact_1_pickup.yy",
   },
   "spriteMaskId":null,
   "visible":true,

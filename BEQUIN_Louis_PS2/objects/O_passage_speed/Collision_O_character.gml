@@ -1,9 +1,9 @@
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 11B1360C
-/// @DnDArgument : "expr" "-7"
+/// @DnDArgument : "expr" "-8"
 /// @DnDArgument : "var" "global.jump_speed"
-global.jump_speed = -7;
+global.jump_speed = -8;
 
 /// @DnDAction : YoYo Games.Instances.Create_Instance
 /// @DnDVersion : 1
