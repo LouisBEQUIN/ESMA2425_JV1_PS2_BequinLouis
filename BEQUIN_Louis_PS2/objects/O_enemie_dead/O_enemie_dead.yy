@@ -9,8 +9,8 @@
   "name":"O_enemie_dead",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"ennemie",
+    "path":"folders/Objects/ennemie.yy",
   },
   "parentObjectId":null,
   "persistent":false,

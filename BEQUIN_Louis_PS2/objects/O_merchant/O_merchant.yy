@@ -34,5 +34,5 @@
     "path":"sprites/S_merchant/S_merchant.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }

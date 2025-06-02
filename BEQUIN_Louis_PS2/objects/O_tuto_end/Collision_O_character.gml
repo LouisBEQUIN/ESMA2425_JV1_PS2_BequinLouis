@@ -34,17 +34,17 @@ var l3473FD9C_0;l3473FD9C_0 = keyboard_check_pressed(ord("E"));if (l3473FD9C_0
 			/// @DnDHash : 12A2934B
 			/// @DnDInput : 4
 			/// @DnDParent : 3DFD4E24
-			/// @DnDArgument : "expr" "20"
+			/// @DnDArgument : "expr" "35"
 			/// @DnDArgument : "expr_1" "true"
-			/// @DnDArgument : "expr_2" "250"
+			/// @DnDArgument : "expr_2" "350"
 			/// @DnDArgument : "expr_3" "5"
 			/// @DnDArgument : "var" "global.bullet_count"
 			/// @DnDArgument : "var_1" "global.check_tuto"
 			/// @DnDArgument : "var_2" "global.credit_count"
 			/// @DnDArgument : "var_3" "global.character_life"
-			global.bullet_count = 20;
+			global.bullet_count = 35;
 			global.check_tuto = true;
-			global.credit_count = 250;
+			global.credit_count = 350;
 			global.character_life = 5;
 		
 			/// @DnDAction : YoYo Games.Common.Variable

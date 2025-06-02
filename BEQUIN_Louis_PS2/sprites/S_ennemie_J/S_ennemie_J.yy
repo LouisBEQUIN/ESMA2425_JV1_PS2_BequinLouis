@@ -3,8 +3,8 @@
   "%Name":"S_ennemie_J",
   "bboxMode":0,
   "bbox_bottom":31,
-  "bbox_left":9,
-  "bbox_right":22,
+  "bbox_left":8,
+  "bbox_right":23,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -14,8 +14,8 @@
   "frames":[
     {"$GMSpriteFrame":"","%Name":"bfe3f193-9ec6-4c62-b459-89fafa94ce15","name":"bfe3f193-9ec6-4c62-b459-89fafa94ce15","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
-  "gridX":0,
-  "gridY":0,
+  "gridX":8,
+  "gridY":8,
   "height":32,
   "HTile":false,
   "layers":[
@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"Sprites",
-    "path":"folders/Sprites.yy",
+    "name":"ennemie",
+    "path":"folders/Sprites/ennemie.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

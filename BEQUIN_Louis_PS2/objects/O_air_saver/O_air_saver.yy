@@ -36,5 +36,5 @@
     "path":"sprites/S_wall_case/S_wall_case.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }

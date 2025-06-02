@@ -9,8 +9,8 @@
   "name":"O_ennemie",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"ennemie",
+    "path":"folders/Objects/ennemie.yy",
   },
   "parentObjectId":{
     "name":"O_shootable",

@@ -1,9 +1,3 @@
-/// @DnDAction : YoYo Games.Miscellaneous.Debug_Show_Message
-/// @DnDVersion : 1
-/// @DnDHash : 59D91F6C
-/// @DnDArgument : "msg" "global.dungeon_1"
-show_debug_message(string(global.dungeon_1));
-
 /// @DnDAction : YoYo Games.Common.Execute_Script
 /// @DnDVersion : 1.1
 /// @DnDHash : 0EF54AE9

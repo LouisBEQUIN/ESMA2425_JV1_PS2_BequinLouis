@@ -7,7 +7,7 @@
   "overriddenProperties":[
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_weapon_pickup_manager","path":"objects/O_weapon_pickup_manager/O_weapon_pickup_manager.yy",},"propertyId":{"name":"weapon_to_pickup","path":"objects/O_weapon_pickup_manager/O_weapon_pickup_manager.yy",},"resource":{"name":"O_barell","path":"objects/O_barell/O_barell.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"O_barell",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_weapon_pickup_manager","path":"objects/O_weapon_pickup_manager/O_weapon_pickup_manager.yy",},"propertyId":{"name":"cooldown_of_weapon","path":"objects/O_weapon_pickup_manager/O_weapon_pickup_manager.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"10",},
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_weapon_pickup_manager","path":"objects/O_weapon_pickup_manager/O_weapon_pickup_manager.yy",},"propertyId":{"name":"dammage_of_weapon","path":"objects/O_weapon_pickup_manager/O_weapon_pickup_manager.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"1",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_weapon_pickup_manager","path":"objects/O_weapon_pickup_manager/O_weapon_pickup_manager.yy",},"propertyId":{"name":"dammage_of_weapon","path":"objects/O_weapon_pickup_manager/O_weapon_pickup_manager.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"2",},
   ],
   "parent":{
     "name":"weapon",

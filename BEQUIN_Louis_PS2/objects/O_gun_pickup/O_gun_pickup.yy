@@ -6,7 +6,7 @@
   "name":"O_gun_pickup",
   "overriddenProperties":[
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_weapon_pickup_manager","path":"objects/O_weapon_pickup_manager/O_weapon_pickup_manager.yy",},"propertyId":{"name":"weapon_to_pickup","path":"objects/O_weapon_pickup_manager/O_weapon_pickup_manager.yy",},"resource":{"name":"O_gun","path":"objects/O_gun/O_gun.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"O_gun",},
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_weapon_pickup_manager","path":"objects/O_weapon_pickup_manager/O_weapon_pickup_manager.yy",},"propertyId":{"name":"cooldown_of_weapon","path":"objects/O_weapon_pickup_manager/O_weapon_pickup_manager.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"5",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_weapon_pickup_manager","path":"objects/O_weapon_pickup_manager/O_weapon_pickup_manager.yy",},"propertyId":{"name":"cooldown_of_weapon","path":"objects/O_weapon_pickup_manager/O_weapon_pickup_manager.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"20",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_weapon_pickup_manager","path":"objects/O_weapon_pickup_manager/O_weapon_pickup_manager.yy",},"propertyId":{"name":"dammage_of_weapon","path":"objects/O_weapon_pickup_manager/O_weapon_pickup_manager.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"1",},
   ],
   "parent":{

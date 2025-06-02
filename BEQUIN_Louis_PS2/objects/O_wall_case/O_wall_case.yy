@@ -6,10 +6,13 @@
   "name":"O_wall_case",
   "overriddenProperties":[],
   "parent":{
-    "name":"invisible object",
-    "path":"folders/Objects/invisible object.yy",
+    "name":"fake_wall_case",
+    "path":"folders/Objects/fake_wall_case.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"O_wall",
+    "path":"objects/O_wall/O_wall.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -32,5 +35,5 @@
     "path":"sprites/S_wall_case/S_wall_case.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }

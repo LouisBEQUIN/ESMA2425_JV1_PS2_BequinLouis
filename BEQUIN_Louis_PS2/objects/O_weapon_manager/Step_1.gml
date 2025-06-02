@@ -62,26 +62,46 @@ var l3018268F_0 = false;l3018268F_0 = instance_exists(O_character);if(l3018268
 		
 			/// @DnDAction : YoYo Games.Common.If_Variable
 			/// @DnDVersion : 1
-			/// @DnDHash : 1DCDF692
+			/// @DnDHash : 2E29C3DD
 			/// @DnDParent : 5AD4C282
-			/// @DnDArgument : "var" "global.bullet_count"
-			/// @DnDArgument : "op" "2"
-			if(global.bullet_count > 0){	/// @DnDAction : YoYo Games.Common.Execute_Script
+			/// @DnDArgument : "var" "global.infinit_bullet"
+			/// @DnDArgument : "value" "false"
+			if(global.infinit_bullet == false){	/// @DnDAction : YoYo Games.Common.If_Variable
+				/// @DnDVersion : 1
+				/// @DnDHash : 1DCDF692
+				/// @DnDParent : 2E29C3DD
+				/// @DnDArgument : "var" "global.bullet_count"
+				/// @DnDArgument : "op" "2"
+				if(global.bullet_count > 0){	/// @DnDAction : YoYo Games.Common.Execute_Script
+					/// @DnDVersion : 1.1
+					/// @DnDHash : 18E6CFE8
+					/// @DnDParent : 1DCDF692
+					/// @DnDArgument : "script" "Scr_mouse_left"
+					/// @DnDSaveInfo : "script" "Scr_mouse_left"
+					script_execute(Scr_mouse_left);
+				
+					/// @DnDAction : YoYo Games.Common.Variable
+					/// @DnDVersion : 1
+					/// @DnDHash : 21ACA658
+					/// @DnDParent : 1DCDF692
+					/// @DnDArgument : "expr" "-1"
+					/// @DnDArgument : "expr_relative" "1"
+					/// @DnDArgument : "var" "global.bullet_count"
+					global.bullet_count += -1;}}
+		
+			/// @DnDAction : YoYo Games.Common.If_Variable
+			/// @DnDVersion : 1
+			/// @DnDHash : 5840ED6A
+			/// @DnDParent : 5AD4C282
+			/// @DnDArgument : "var" "global.infinit_bullet"
+			/// @DnDArgument : "value" "true"
+			if(global.infinit_bullet == true){	/// @DnDAction : YoYo Games.Common.Execute_Script
 				/// @DnDVersion : 1.1
-				/// @DnDHash : 18E6CFE8
-				/// @DnDParent : 1DCDF692
+				/// @DnDHash : 6C6F16FD
+				/// @DnDParent : 5840ED6A
 				/// @DnDArgument : "script" "Scr_mouse_left"
 				/// @DnDSaveInfo : "script" "Scr_mouse_left"
-				script_execute(Scr_mouse_left);
-			
-				/// @DnDAction : YoYo Games.Common.Variable
-				/// @DnDVersion : 1
-				/// @DnDHash : 21ACA658
-				/// @DnDParent : 1DCDF692
-				/// @DnDArgument : "expr" "-1"
-				/// @DnDArgument : "expr_relative" "1"
-				/// @DnDArgument : "var" "global.bullet_count"
-				global.bullet_count += -1;}}
+				script_execute(Scr_mouse_left);}}
 	
 		/// @DnDAction : YoYo Games.Common.Variable
 		/// @DnDVersion : 1

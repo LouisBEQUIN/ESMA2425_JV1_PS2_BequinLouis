@@ -34,5 +34,5 @@
     "path":"sprites/S_tuto_save/S_tuto_save.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }

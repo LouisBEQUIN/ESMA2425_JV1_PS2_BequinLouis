@@ -19,7 +19,7 @@
   "height":64,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"27874fcd-67ef-4db4-8b20-4b8b2780e654","blendMode":0,"displayName":"default","isLocked":false,"name":"27874fcd-67ef-4db4-8b20-4b8b2780e654","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"8630d8f1-b32c-40b7-bd36-26b4c9a3463c","blendMode":0,"displayName":"default","isLocked":false,"name":"8630d8f1-b32c-40b7-bd36-26b4c9a3463c","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"S_door_tuto_open",
   "nineSlice":null,

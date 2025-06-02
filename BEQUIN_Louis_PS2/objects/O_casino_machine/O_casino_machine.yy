@@ -11,8 +11,8 @@
   "name":"O_casino_machine",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"casino",
+    "path":"folders/Objects/casino.yy",
   },
   "parentObjectId":null,
   "persistent":false,

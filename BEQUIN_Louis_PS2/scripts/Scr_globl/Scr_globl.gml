@@ -1,6 +1,6 @@
 global.character_life = 5;
 
-global.credit_count = 1000;
+global.credit_count = 350;
 
 global.is_in_dungeon = false;
 
@@ -13,3 +13,7 @@ global.jump_speed = 0;
 global.check_tuto = false;
 
 global.bullet_count = 0;
+
+global.beforeRAID = 0;
+
+global.infinit_bullet = false;

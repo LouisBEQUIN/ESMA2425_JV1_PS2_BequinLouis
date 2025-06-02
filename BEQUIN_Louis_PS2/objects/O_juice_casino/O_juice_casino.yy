@@ -9,8 +9,8 @@
   "name":"O_juice_casino",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"casino",
+    "path":"folders/Objects/casino.yy",
   },
   "parentObjectId":null,
   "persistent":false,

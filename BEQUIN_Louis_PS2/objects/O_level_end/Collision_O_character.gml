@@ -29,6 +29,14 @@ var l3473FD9C_0;l3473FD9C_0 = keyboard_check_pressed(ord("E"));if (l3473FD9C_0
 			/// @DnDArgument : "var" "global.is_in_dungeon"
 			global.is_in_dungeon = false;
 		
+			/// @DnDAction : YoYo Games.Common.Variable
+			/// @DnDVersion : 1
+			/// @DnDHash : 70648B19
+			/// @DnDParent : 3DFD4E24
+			/// @DnDArgument : "expr" "true"
+			/// @DnDArgument : "var" "global.dungeon_1"
+			global.dungeon_1 = true;
+		
 			/// @DnDAction : YoYo Games.Common.Execute_Script
 			/// @DnDVersion : 1.1
 			/// @DnDHash : 488CFD0A

@@ -46,7 +46,7 @@ y = y+ (yTo - y) /25;
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 7478823D
-/// @DnDArgument : "code" "$(13_10)x = clamp(x, view_w_half,room_width - view_w_half);$(13_10)y = clamp(y, view_h_half,room_height - view_h_half);$(13_10)$(13_10)$(13_10)camera_set_view_pos(cam,x - view_w_half,y - view_h_half);$(13_10)$(13_10)if (layer_exists("city"))$(13_10){$(13_10)	layer_x("city",x/2);$(13_10)}$(13_10)$(13_10)if (layer_exists("street"))$(13_10){$(13_10)	layer_x("street",x/4);$(13_10)}"
+/// @DnDArgument : "code" "$(13_10)x = clamp(x, view_w_half,room_width - view_w_half);$(13_10)y = clamp(y, view_h_half,room_height - view_h_half);$(13_10)$(13_10)$(13_10)camera_set_view_pos(cam,x - view_w_half,y - view_h_half);$(13_10)$(13_10)if (layer_exists("city"))$(13_10){$(13_10)	layer_x("city",x/4);$(13_10)}$(13_10)$(13_10)if (layer_exists("street"))$(13_10){$(13_10)	layer_x("street",x/5);$(13_10)}"
 
 x = clamp(x, view_w_half,room_width - view_w_half);
 y = clamp(y, view_h_half,room_height - view_h_half);
@@ -56,10 +56,10 @@ camera_set_view_pos(cam,x - view_w_half,y - view_h_half);
 
 if (layer_exists("city"))
 {
-	layer_x("city",x/2);
+	layer_x("city",x/4);
 }
 
 if (layer_exists("street"))
 {
-	layer_x("street",x/4);
+	layer_x("street",x/5);
 }
